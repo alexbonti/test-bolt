@@ -60,7 +60,7 @@ export default function Home() {
 
   return (
     <div className="max-w-2xl mx-auto">
-      <h1 className="text-2xl font-bold mb-6">Latest News</h1>
+      <h1 className="text-2xl font-bold mb-6">Latest Updates</h1>
       <div className="space-y-6">
         {articles.map((article) => (
           <article key={article.id} className="bg-white rounded-lg shadow-md overflow-hidden">
